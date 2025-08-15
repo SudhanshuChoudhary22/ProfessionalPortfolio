@@ -1,7 +1,7 @@
 export const experienceData = [
     {
         id: 1,
-        company: ' Dotdash Meredith, New York, US ',
+        company: '  People Inc., New York, US ',
         jobtitle: 'Senior Software Engineer',
         startYear: 'September 2024',
         endYear: 'Present'
