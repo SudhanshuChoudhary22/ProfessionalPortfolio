@@ -8,14 +8,14 @@ export const experienceData = [
     },
     {
         id: 2,
-        company: ' Morgan Stanley New York, US ',
+        company: ' Morgan Stanley, New York, US ',
         jobtitle: 'Software Engineer',
         startYear: ' November 2023 ',
         endYear: 'September 2024'
     },
     {
         id: 3,
-        company: 'Jefferies New Jersey, US ',
+        company: 'Jefferies, New Jersey, US ',
         jobtitle: 'Software Engineer',
         startYear: 'November 2022',
         endYear: 'September 2023'
