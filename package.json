@@ -22,11 +22,13 @@
     "slick-carousel": "^1.8.1",
     "v18": "^1.0.2",
     "validator": "^13.6.0",
+    "fork-ts-checker-webpack-plugin": "6.5.3",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "node node_modules/react-scripts/bin/react-scripts.js build",
+    "prebuild": "node -e \"console.log('node',process.version);console.log('fts',require('fork-ts-checker-webpack-plugin/package.json').version);console.log('rdu',require('react-dev-utils/package.json').version);console.log('rs',require('react-scripts/package.json').version);\"",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -57,7 +59,6 @@
   "devDependencies": {
     "ajv": "^6.12.6",
     "ajv-keywords": "^3.5.2",
-    "cross-env": "^10.1.0",
-    "fork-ts-checker-webpack-plugin": "6.5.3"
+    "cross-env": "^10.1.0"
   }
 }
