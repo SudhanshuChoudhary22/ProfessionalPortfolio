@@ -7,73 +7,36 @@ import { FaInternetExplorer,  FaChalkboardTeacher, FaCameraRetro, FaPinterest, F
  
 
 export const servicesData = [
-    // {
-    //     id: 1,
-    //     title: 'Marketing',
-    //     icon: <BiShoppingBag/>
-    // },
     {
-        id: 2,
-        title: 'Content Writing',
-        icon: <BiPencil /> 
-    },
-    {
-        id: 3,
-        title: 'Email Marketing',
-        icon: <AiOutlineMail />
-    },
-    // {
-    //     id: 4,
-    //     title: 'Internet Research',
-    //     icon: <FaInternetExplorer />
-    // },
-    // {
-    //     id: 5,
-    //     title: 'Tutoring',
-    //     icon: <FaChalkboardTeacher />
-    // },
-
-    {
-        id: 6,
-        title: 'Web Design',
+        id: 1,
+        title: 'Backend Development',
         icon: <BsCodeSlash />
     },
     {
-        id: 7,
-        title: 'Photography',
-        icon: <FaCameraRetro />
+        id: 2,
+        title: 'API Design & Integration',
+        icon: <BsCodeSlash />
     },
-    // {
-    //     id: 8,
-    //     title: 'Pinterest Virtual Assistant',
-    //     icon: <FaPinterest />
-    // }, 
     {
-        id: 9,
-        title: 'Video Editing',
-        icon: <FaVideo />
+        id: 3,
+        title: 'Cloud & DevOps (AWS)',
+        icon: <FaInternetExplorer />
     },
-    // {
-    //     id: 10,
-    //     title: 'Data Entry', 
-    //     icon: <BsClipboardData />
-    // },
     {
-        id: 11,
-        title: 'Ebook Writing',
-        icon: <FaTabletAlt />
+        id: 4,
+        title: 'CI/CD Automation',
+        icon: <BsClipboardData />
     },
-    // {
-    //     id: 12,
-    //     title: 'Audio Transcription',
-    //     icon: <AiFillAudio />
-    // },
     {
-        id: 13,
-        title: 'Blog Posting',
+        id: 5,
+        title: 'Infrastructure as Code',
+        icon: <BsClipboardData />
+    },
+    {
+        id: 6,
+        title: 'Monitoring & Observability',
         icon: <FaRegNewspaper />
     },
-
 ]
 
 // Uncomment your required service.

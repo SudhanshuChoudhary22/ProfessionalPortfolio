@@ -105,11 +105,15 @@ function Navbar() {
         },
         drawerLinks: {
             fontFamily: 'var(--primaryFont)',
-            width: '50%',
-            fontSize: '1.3rem',
+            width: 'auto',
+            flexGrow: 1,
+            fontSize: '1.25rem',
             fontWeight: 600,
+            whiteSpace: 'nowrap',
+            overflow: 'hidden',
+            textOverflow: 'ellipsis',
             [t.breakpoints.down('sm')]: {
-                fontSize: '1.125rem',
+                fontSize: '1.1rem',
             },
         },
         drawerIcon: {
@@ -210,6 +214,7 @@ function Navbar() {
                                 </div>
                             </NavLink>
                         </Fade>
+                        
                         <Fade left>
                             <NavLink
                                 to='/#education'

@@ -11,67 +11,68 @@ import eight from '../assets/svg/projects/eight.svg'
 export const projectsData = [
     {
         id: 1,
-        projectName: 'AWS Cost Analytics Pipeline',
-        projectDesc: 'Built a serverless cost analytics pipeline using AWS Glue, Athena, and S3 to query Cost and Usage Reports in near real-time. Enabled granular billing insights and integrated with Grafana. Optimized ingestion via SQS-triggered Glue crawlers.',
-        code: 'https://github.com/himanshuchoudhary448/aws-lambda-monitoring-alerting',
+        projectName: 'Campus Recruitment – Employment Portal',
+        projectDesc:
+            'Built with Node.js (server), React.js (client), MongoDB (DB), and Cloudinary for resume uploads (JPEG/PNG). Developed in VS Code with a modern MERN stack for candidate/job workflows.',
+        code: 'https://github.com/SudhanshuChoudhary22',
         image: one
     },
     {
         id: 2,
-        projectName: 'AWS VPC Infrastructure with Terraform',
-        projectDesc: 'Provisioned and managed scalable AWS VPC infrastructure using Terraform modules. Automated the creation of NAT Gateways, public/private subnets, route tables, and VPC flow logs with support for high availability and IPAM-based CIDR management.',
-        code: 'https://github.com/himanshuchoudhary448/terraform-aws-vpc',
+        projectName: 'Dry Clean Shop Automation',
+        projectDesc:
+            'Online Laundry Platform: React.js + Context API with SCSS, Material UI, MDB, and Now UI Kit on the front end; Node.js/Express.js backend with MongoDB. CI via GitHub for streamlined deployments.',
+        code: 'https://github.com/SudhanshuChoudhary22',
         image: two
     },
     {
         id: 3,
-        projectName: 'CI/CD Pipeline with Jenkins, Docker, and Helm',
-        projectDesc: 'Implemented a CI/CD pipeline for Kubernetes-based applications using Jenkins, Docker, and Helm. Integrated Artifactory as the container registry and Helm repository. Built and deployed a static web app to Kubernetes via automated Jenkins pipelines.',
-        code: 'https://github.com/himanshuchoudhary448/jenkins-pipeline-kubernetes',
+        projectName: 'FashionCube',
+        projectDesc:
+            'E‑commerce front end using React.js, Redux, Axios, and Sass with React‑Bootstrap. Focused on dynamic UI, state management, and optimized HTTP requests for a smooth shopping experience.',
+        code: 'https://github.com/SudhanshuChoudhary22',
         image: three
     },
     {
         id: 4,
-        projectName: 'Credit Risk Modeling',
-        projectDesc: 'Utilized Big Data technologies like Hadoop MapReduce, Pig, and Hive to calculate and predict average loan risk across a dataset and risk based on category, location, and loan type.',
-        code: 'https://github.com/himanshuchoudhary448/Credit-Risk-Modeling',
+        projectName: 'Real-time Traffic Analytics',
+        projectDesc:
+            'Dashboards and analytics using React.js, TypeScript, and Next.js to visualize live traffic data; improved operational visibility by 30%.',
+        code: 'https://github.com/SudhanshuChoudhary22',
         image: four
     },
     {
         id: 5,
-        projectName: 'Databricks SQL Connector for Python',
-        projectDesc: 'Contributed to a Python-based SQL connector for Databricks using Apache Arrow and Thrift. Enabled fast and efficient query execution on Databricks SQL Warehouses, with support for OAuth authentication and integration with SQLAlchemy for broader ORM compatibility.',
-        code: 'https://github.com/himanshuchoudhary448/databricks-sql-python',
+        projectName: 'Scalable REST APIs for IoT Data',
+        projectDesc:
+            'Developed scalable REST APIs using Node.js, Express.js, Flask, and FastAPI to process live sensor data; deployed on AWS EC2, Docker, and Kubernetes (EKS).',
+        code: 'https://github.com/SudhanshuChoudhary22',
         image: five
     },
     {
         id: 6,
-        projectName: 'HealthTrack Assistant',
-        projectDesc: 'Developed an Android app using Android Studio, Java, and XML to aid forgetful and busy individuals in remembering their daily medications. The app targets users seeking assistance in managing their medication schedules.',
-        code: 'https://github.com/himanshuchoudhary448/HealthTrack-Assistant',
+        projectName: 'CI/CD Automation on AWS',
+        projectDesc:
+            'Implemented CI/CD with Jenkins, GitHub Actions, and Docker for automated build, test, and deploy pipelines; enabled zero-downtime deployments across environments.',
+        code: 'https://github.com/SudhanshuChoudhary22',
         image: six
     },
     {
         id: 7,
-        projectName: 'Lambda Monitoring and Alerting Framework',
-        projectDesc: 'Built an AWS Lambda monitoring and alerting solution using Amazon CloudWatch and SNS. Automated notifications for runtime anomalies and failures, ensuring operational transparency and fast incident response in serverless applications.',
-        code: 'https://github.com/himanshuchoudhary448/aws-lambda-monitoring-alerting',
+        projectName: 'Data Migration to AWS RDS',
+        projectDesc:
+            'Migrated 500K+ employee records from Oracle to AWS RDS (MySQL); improved query performance by 45% with indexing and schema optimization.',
+        code: 'https://github.com/SudhanshuChoudhary22',
         image: seven
     },
     {
         id: 8,
-        projectName: 'Spring Boot Microservices with Netflix OSS',
-        projectDesc: 'Developed a microservices ecosystem with Spring Boot and Netflix OSS stack (Zuul, Eureka, Hystrix). Integrated services including API Gateway, Auth Server, and Amazon S3 file service. Leveraged OAuth2 for secure authentication and MongoDB for data persistence.',
-        code: 'https://github.com/himanshuchoudhary448/spring-boot-microservices',
+        projectName: 'Monitoring & Alerting',
+        projectDesc:
+            'Configured AWS CloudWatch dashboards and Splunk alerts for proactive monitoring and reduced MTTR by 60% through automation and actionable insights.',
+        code: 'https://github.com/SudhanshuChoudhary22',
         image: eight
-    },
-     {
-        id: 9,
-        projectName: 'Spring Boot Redis Cache API',
-        projectDesc: 'Engineered a Redis-powered Spring Boot caching service to accelerate API responses for customer data. Integrated Spring Cache annotations with Redis using Docker and Docker Compose, and exposed endpoints via Swagger for easy testing.',
-        code: 'https://github.com/himanshuchoudhary448/spring-boot-redis-cache',
-        image: eight
-    },
+    }
 ]
 
 

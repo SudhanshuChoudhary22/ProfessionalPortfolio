@@ -1,37 +1,23 @@
 export const experienceData = [
     {
         id: 1,
-        company: '  People Inc., New York, US ',
-        jobtitle: 'Senior Software Engineer',
-        startYear: 'September 2024',
+        company: 'Zant, Hoboken, NJ, USA',
+        jobtitle: 'Software Engineer',
+        startYear: 'October 2024',
         endYear: 'Present'
     },
     {
         id: 2,
-        company: ' Morgan Stanley, New York, US ',
+        company: 'Alliant Infotech, Indore, India',
         jobtitle: 'Software Engineer',
-        startYear: ' November 2023 ',
-        endYear: 'September 2024'
+        startYear: 'August 2021',
+        endYear: 'July 2022'
     },
     {
         id: 3,
-        company: 'Jefferies, New Jersey, US ',
+        company: 'Trafiksol ITS Technologies, Noida, India',
         jobtitle: 'Software Engineer',
-        startYear: 'November 2022',
-        endYear: 'September 2023'
-    },
-       {
-        id: 3,
-        company: ' AT&T, Texas, US',
-        jobtitle: 'Software Engineer',
-        startYear: 'August 2021',
-        endYear: 'October 2022'
-    },
-       {
-        id: 3,
-        company: 'Chubb, New Jersey, US ',
-        jobtitle: 'Software Engineer',
-        startYear: 'August 2020',
+        startYear: 'July 2019',
         endYear: 'July 2021'
     },
 ]

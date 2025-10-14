@@ -77,7 +77,7 @@ function Landing() {
                     <div className='lcl--content'>
                         {socialsData.linkedIn && (
                             <a
-                                href='https://www.linkedin.com/in/himanshu-choudhary-b39b62249/'
+                                href={socialsData.linkedIn}
                                 target='_blank'
                                 rel='noreferrer'
                             >
@@ -90,7 +90,7 @@ function Landing() {
                         )}
                         {socialsData.github && (
                             <a
-                                href='https://github.com/himanshuchoudhary448?tab=repositories'
+                                href={socialsData.github}
                                 target='_blank'
                                 rel='noreferrer'
                             >
@@ -118,15 +118,23 @@ function Landing() {
                         
                     </div>
                 </div>
-                {/* <img
+                <img
                     src={headerData.image}
-                    alt=''
+                    alt='Profile'
                     className='landing--img'
                     style={{
                         opacity: `${drawerOpen ? '0' : '1'}`,
                         borderColor: theme.secondary,
+                        border: `10px solid ${theme.secondary}`,
                     }}
-                /> */}
+                    onError={(e) => {
+                        // Show a visible fallback if the local file isn't present yet
+                        if (e.currentTarget && e.currentTarget.src) {
+                            e.currentTarget.onerror = null;
+                            e.currentTarget.src = 'https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/landingImg.png';
+                        }
+                    }}
+                />
                 <div
                     className='landing--container-right'
                     style={{ backgroundColor: theme.secondary }}

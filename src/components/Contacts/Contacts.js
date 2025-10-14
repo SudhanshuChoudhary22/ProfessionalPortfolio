@@ -171,8 +171,8 @@ function Contacts() {
                 <div className='contacts-body'>
                     <div className='contacts-form'>
                         <form
-  action="https://formsubmit.co/himanshuchoudhary448@gmail.com"
-  method="POST"
+                          action="https://formsubmit.co/sudhanshuchoudhary022@gmail.com"
+                          method="POST"
   onSubmit={(e) => {
     if (!name || !email || !message) {
       e.preventDefault();
@@ -345,7 +345,7 @@ function Contacts() {
                             )} */}
                             {socialsData.github && (
                                 <a
-                                    href='https://github.com/himanshuchoudhary448'
+                                    href={socialsData.github}
                                     target='_blank'
                                     rel='noreferrer'
                                     className={classes.socialIcon}
@@ -355,7 +355,7 @@ function Contacts() {
                             )}
                             {socialsData.linkedIn && (
                                 <a
-                                    href='https://www.linkedin.com/in/himanshu-choudhary-b39b62249/'
+                                    href={socialsData.linkedIn}
                                     target='_blank'
                                     rel='noreferrer'
                                     className={classes.socialIcon}

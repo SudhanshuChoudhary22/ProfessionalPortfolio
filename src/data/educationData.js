@@ -1,16 +1,16 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'New York Institute of Technology',
-        course: 'Master of Science, Computer Science',
-        startYear: 'September 2018',
-        endYear: 'May 2020'
+        institution: 'Monroe University, New York, NY',
+        course: 'Master of Science in Computer Science (GPA 3.81/4.0)',
+        startYear: 'September 2022',
+        endYear: 'August 2024'
     },
     {
         id: 2,
-        institution: 'Rajiv Gandhi Proudyogiki Vishwavidyalaya',
-        course: 'Bachelor of Engineering, Computer Science',
-        startYear: 'August 2014',
-        endYear: 'June 2018'
+        institution: 'Rajiv Gandhi Prodyogiki Vishwavidyalaya, Bhopal, India',
+        course: 'Bachelor of Technology in Information Technology',
+        startYear: 'July 2017',
+        endYear: 'August 2021'
     }
 ]
